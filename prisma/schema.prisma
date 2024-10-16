@@ -1,0 +1,25 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model MovieWatchList {
+id       String    @id @default(auto()) @map("_id") @db.ObjectId
+movieid  Int    @unique
+  movie Movie
+}
+
+type Movie{
+  id  Int 
+  title  String 
+  release_date  String 
+  vote_average  Int 
+  poster_path  String 
+}
