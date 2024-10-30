@@ -35,7 +35,7 @@ Welcome to the _FilmFlicker_ – your go-to platform for exploring movies! This 
 
    ```
 
-3. **Configure API Key:**
+3. [Configure TMDb API Access](https://www.themoviedb.org/)
 
    ```bash
    TMDB_API_KEY=your_tmdb_api_key_here
