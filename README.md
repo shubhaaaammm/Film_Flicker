@@ -23,7 +23,7 @@ Welcome to the _FilmFlicker_ – your go-to platform for exploring movies! This 
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/isankitraj/FilmFlicker.git
+   git clone https://github.com/shubhaaaammm/Film_Flicker.git
 
    ```
 
